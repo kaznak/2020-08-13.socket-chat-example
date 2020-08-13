@@ -4,7 +4,8 @@
   "description": "socket.io tutorial",
   "main": "server.js",
   "scripts": {
-    "format": "prettier --write **.js",
+    "start": "node server.js",
+    "format": "prettier --write **.{js,json}",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "kaznak <kaznak.at.work@gmail.com>",
